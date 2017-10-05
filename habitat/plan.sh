@@ -1,6 +1,6 @@
 pkg_name=gameoflife
 pkg_origin=arjun808
-pkg_version="5.2"
+pkg_version="$BUILD_ID"
 #pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=('Apache-2.0')
 pkg_source="https://github.com/arjun808/game-of-life"
