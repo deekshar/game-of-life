@@ -62,7 +62,7 @@
 </head>
 <body>
     <%
- String hostName=request.getServerName();
+ String hostName=InetAddress.getLocalHost().getHostAddress();
 %>
 <h2>Welcome to Conway's Game Of Life! I am from <%=hostName%></h2>
 
