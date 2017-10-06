@@ -17,7 +17,7 @@
 
         .intro {
             font-family: sans-serif;
-            background: rgb(61, 152, 226);
+            background: rgb(167, 218, 249);
             border: 1pt rgb(150, 150, 150) solid;
             padding: 8px;
             margin: 4px;
@@ -65,7 +65,7 @@
 </head>
 
 <%
- String hostName=InetAddress.getLocalHost().getHostAddress();
+ String hostName=InetAddress.getLocalHost().getHostName();
 %> 
     
     
