@@ -65,7 +65,7 @@
 %>
 
     
-<h2>Welcome to Conway's Game Of Life! I am from hostname </h2>
+<h2>Welcome to Conway's Game Of Life! I am from <%=hostName%> </h2>
 
 <div class="intro">
     <p>This is a really cool web version of Conway's famous Game Of
