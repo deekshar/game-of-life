@@ -60,11 +60,8 @@
 
     </style>
 </head>
-<body>
-    <%
- String hostName=InetAddress.getLocalHost().getHostAddress();
-%>
-<h2>Welcome to Conway's Game Of Life! I am from <%=hostName%></h2>
+
+<h2>Welcome to Conway's Game Of Life! I am from myself</h2>
 
 <div class="intro">
     <p>This is a really cool web version of Conway's famous Game Of
