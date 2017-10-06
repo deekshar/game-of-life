@@ -61,11 +61,18 @@
     </style>
 </head>
 <%
-  String hostName=request.getServerName();
+  try
+  {
+    String hName = InetAddress.getByName(request.getRemoteHost()).getHostName();
+  }
+catch(Exception dd)
+{
+  dd.printStackTrace();
+}
 %>
 
     
-<h2>Welcome to Conway's Game Of Life! I am from <%=hostName%> </h2>
+<h2>Welcome to Conway's Game Of Life! I am from <%=hName%> </h2>
 
 <div class="intro">
     <p>This is a really cool web version of Conway's famous Game Of
