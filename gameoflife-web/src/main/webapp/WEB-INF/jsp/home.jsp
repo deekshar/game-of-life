@@ -61,7 +61,7 @@
     </style>
 </head>
 <%
-  String hostname = request.getRemoteHost() ;
+  String hostName=request.getServerName();
 %>
 
     
