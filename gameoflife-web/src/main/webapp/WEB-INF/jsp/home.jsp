@@ -64,7 +64,7 @@
 </head>
 
 <%
- String hostName=request.getRemoteAddr();
+ String hostName=InetAddress.getLocalHost().getHostAddress();
 %> 
     
     
