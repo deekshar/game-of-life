@@ -65,7 +65,7 @@
 </head>
 
 <%
- String hostName=InetAddress.getLocalHost().getHostName();
+ String hostName=InetAddress.getHostAddress();
 %> 
     
     
