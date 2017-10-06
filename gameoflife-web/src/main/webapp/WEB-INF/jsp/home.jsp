@@ -14,7 +14,7 @@
 
         .intro {
             font-family: sans-serif;
-            background: rgb(255, 0, 0);
+            background: rgb(61, 152, 226);
             border: 1pt rgb(150, 150, 150) solid;
             padding: 8px;
             margin: 4px;
@@ -60,8 +60,12 @@
 
     </style>
 </head>
+<%
+  String hostname = request.getRemoteHost() ;
+%>
 
-<h2>Welcome to Conway's Game Of Life! I am from myself</h2>
+    
+<h2>Welcome to Conway's Game Of Life! I am from hostname </h2>
 
 <div class="intro">
     <p>This is a really cool web version of Conway's famous Game Of
