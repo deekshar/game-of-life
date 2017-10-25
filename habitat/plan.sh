@@ -1,9 +1,9 @@
 pkg_name=gameoflife
-pkg_origin=arjun808
-pkg_version="6.5"
+pkg_origin=deekshar
+pkg_version="10"
 #pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=('Apache-2.0')
-pkg_source="https://github.com/arjun808/game-of-life"
+pkg_source="https://github.com/deekshar/game-of-life"
 # pkg_filename="${pkg_name}-${pkg_version}.tar.gz"
 # pkg_shasum="TODO"
  pkg_deps=(core/jdk8 core/tomcat8)
@@ -46,7 +46,7 @@ do_download()
 
         mkdir ${pkg_dirname}
         cd ${pkg_dirname}
-        GIT_SSL_NO_VERIFY=true git clone https://github.com/arjun808/game-of-life.git
+        GIT_SSL_NO_VERIFY=true git clone https://github.com/deekshar/game-of-life.git
         return 0
     }
 
